@@ -12,8 +12,8 @@ enter guesses, one word at a time, until the secret word is guessed, or an EOF (
 non-letter symbols are not valid). 
 • If a guess does not match the secret word exactly, the game will return a message stating that “x letters
 match” where x denotes the number of characters in that guess that are also in the secret word. Note that 
-position does not matter; guessing “poach” against the secret word “crash” would match 3 characters, the ‘a’,
-‘c’ and ‘h’, even through they had diﬀerent positions in the two words. The player is allowed to guess again. 
+position does not matter; guessing “poach” against the secret word “crash” would match 3 characters, the ‘a’, ‘c’ 
+and ‘h’, even through they had diﬀerent positions in the two words. The player is allowed to guess again. 
 • If a word entered matches the secret word, the program will return a message “you guessed correctly!” and 
 exit.
 
