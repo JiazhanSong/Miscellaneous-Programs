@@ -24,4 +24,4 @@ Classic game of hangman with infinite lives. Invoke with: hangman [filename]
 • File containing secret word should have the secret word as the first non-whitespace string. Any text following
 the secret word will be printed out as a hint to the player. Refer to pineapple.txt file.
 • Program will print out which letters were guessed correctly and which were not at every guess.
-• Infinite attempts (more accurately 2^31 - 1 attempts).
+• Infinite attempts (more accurately 2^31 - 1 attempts). 
