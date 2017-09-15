@@ -43,12 +43,12 @@ int main(int argc, char *argv[]) {
 	while (getline(file, hint)) {
 		cout << hint << endl;
 	}
-	cout << endl;
+	cout << endl << "Guess:" << endl;
 
 	int attempts = 0;
 	while (cin >> guess) { // loops through input
 		if (length != guess.length()) {
-			cout << endl << "invalid word length" << endl;
+			cout << endl << "invalid word length" << endl << endl;
 		}
 		else {
 			attempts++;
@@ -68,7 +68,8 @@ int main(int argc, char *argv[]) {
 					cout << "_";
 				}
 			}
-			cout << endl << matches << " letters match" << endl;
+			cout << endl << matches << " letters match" << endl << endl;
 		}
+		cout << "Guess:" << endl;
 	}
 }
