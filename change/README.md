@@ -6,6 +6,7 @@ you have 68 units of money, then the command-line would read as follows:
 ./change 1 10 25 68
 
 The initial three values are the coin denominations, in any order. The last value is the total. For this input, the output should be:
+
 2 x 25 
 
 1 x 10 
