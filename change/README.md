@@ -7,12 +7,13 @@ you have 68 units of money, then the command-line would read as follows:
 
 The initial three values are the coin denominations, in any order. The last value is the total. For this input, the output should be:
 2 x 25 
+
 1 x 10 
+
 8 x 1
 
 Notes: 
-• Most coin systems have the property that you can make change by starting at the highest coin value, taking as many of those as
-possible, and then moving on to the next coin value, and so on. Assume that the input for change will always have this property. 
+• Most coin systems have the property that you can make change by starting at the highest coin value, taking as many of those as possible, and then moving on to the next coin value, and so on. Assume that the input for change will always have this property. 
 • If it is not possible to construct the given total, outputs Impossible to standard output.
 • The program needs at least 2 command-line parameters: a minimum of one denomination and one total.
 • Valid command-line parameters are positive integers.
